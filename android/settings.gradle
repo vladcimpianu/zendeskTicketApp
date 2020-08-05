@@ -1,4 +1,8 @@
 rootProject.name = 'zendeskTicketApp'
+include ':@synapsestudios_react-native-zendesk-support'
+project(':@synapsestudios_react-native-zendesk-support').projectDir = new File(rootProject.projectDir, '../node_modules/@synapsestudios/react-native-zendesk-support/android')
+include ':react-native-zendesk'
+project(':react-native-zendesk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-zendesk/android')
 include ':react-native-zendesk'
 project(':react-native-zendesk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-zendesk/android')
 include ':react-native-vector-icons'

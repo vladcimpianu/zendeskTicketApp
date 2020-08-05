@@ -12,6 +12,8 @@ target 'zendeskTicketApp' do
 
   pod 'react-native-zendesk', :path => '../node_modules/react-native-zendesk'
 
+  pod 'react-native-zendesk-support', :path => '../node_modules/@synapsestudios/react-native-zendesk-support'
+
   target 'zendeskTicketAppTests' do
     inherit! :complete
     # Pods for testing
