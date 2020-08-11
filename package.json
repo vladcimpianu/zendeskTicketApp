@@ -10,10 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@synapsestudios/react-native-zendesk-support": "^1.1.0",
     "react": "16.13.1",
     "react-native": "0.63.2",
-    "react-native-vector-icons": "^7.0.0",
-    "react-native-zendesk": "^2.1.0",
     "uuidv4": "^6.2.1"
   },
   "devDependencies": {
